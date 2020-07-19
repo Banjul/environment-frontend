@@ -1,0 +1,33 @@
+var company_type = [
+    {"label":"国有企业","value":"110"},
+    {"label":"集体企业","value":"120"},
+    {"label":"联营企业","value":"140"},
+    {"label":"私营企业","value":"170"},
+    {"label":"其他企业","value":"190"},
+    {"label":"内资企业","value":"100"},
+    {"label":"外资企业","value":"330"},
+    {"label":"股份合作企业","value":"130"},
+    {"label":"有限责任公司","value":"150"},
+    {"label":"股份有限公司","value":"160"},
+    {"label":"港、澳、台商投资企业","value":"200"},
+    {"label":"外商投资企业","value":"300"},
+    {"label":"外商投资股份有限公司","value":"340"},
+    {"label":"中外合资经营企业","value":"310"},
+    {"label":"国有联营企业","value":"141"},
+    {"label":"集体联营企业","value":"142"},
+    {"label":"国有与集体联赢企业","value":"143"},
+    {"label":"其他联营企业","value":"149"},
+    {"label":"国有独资公司","value":"151"},
+    {"label":"其他有限责任公司","value":"159"},
+    {"label":"私营独资企业","value":"171"},
+    {"label":"私营合伙企业","value":"172"},
+    {"label":"私营有限责任公司","value":"173"},
+    {"label":"私营股份有限公司","value":"174"},
+    {"label":"与港、澳、台商投资股份有限公司","value":"210"},
+    {"label":"与港、澳、台商合作经营企业","value":"220"},
+    {"label":"港、澳、台商独资企业","value":"230"},
+    {"label":"港、澳、台商投资股份有限公司","value":"240"},
+    {"label":"中外合作经营企业","value":"320"}
+    ];
+
+export default company_type;

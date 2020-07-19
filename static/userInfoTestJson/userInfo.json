@@ -1,0 +1,54 @@
+{
+  "userInfoData":[
+  {
+    "user_id": "1",
+    "user_name": "Peter",
+    "user_tel": "13604024792",
+    "user_mail": "peter1995@126.com",
+    "password": "aaa",
+    "role": "",
+    "group": "",
+    "permissions": ""
+  },
+  {
+    "user_id": "2",
+    "user_name": "Tom",
+    "user_tel": "17694024892",
+    "user_mail": "tom1996@qq.com",
+    "password": "bbb",
+    "role": "",
+    "group": "",
+    "permissions": ""
+  },
+  {
+    "user_id": "3",
+    "user_name": "Sonic",
+    "user_tel": "15989320608",
+    "user_mail": "sonic2000@gmail.com",
+    "password": "ccc",
+    "role": "",
+    "group": "",
+    "permissions": ""
+  },
+  {
+    "user_id": "4",
+    "user_name": "Linda",
+    "user_tel": "13926835817",
+    "user_mail": "linda2006@163.com",
+    "password": "ddd",
+    "role": "",
+    "group": "",
+    "permissions": ""
+  },
+  {
+    "user_id": "5",
+    "user_name": "Sam",
+    "user_tel": "13546865197",
+    "user_mail": "tom1996@qq.com",
+    "password": "eee",
+    "role": "",
+    "group": "",
+    "permissions": ""
+  }
+ ]
+}

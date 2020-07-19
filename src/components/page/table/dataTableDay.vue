@@ -1,0 +1,123 @@
+<template>
+  <el-table border style="100%" row-class-name="base-eltable-bgc" height="400"
+    :data="siteData"
+    v-loading="loading"
+    element-loading-text="拼命加载中"
+    element-loading-spinner="el-icon-loading"
+    element-loading-background="rgba(0, 0, 0, 0.8)"
+    :default-sort = "{prop: 'time', order: 'descending'}">
+    <el-table-column
+      prop="time"
+      label="时间"
+      align="center"
+      sortable>
+    </el-table-column>
+    <el-table-column
+      prop="n00100"
+      label="校准值"
+      align="center">
+    </el-table-column>
+    <el-table-column
+      label="Ld"
+      align="center">
+      <el-table-column
+        prop="n00008"
+        label="平均值"
+        align="center">
+      </el-table-column>
+      <el-table-column
+        prop="max_ld_day"
+        label="最大值"
+        align="center">
+      </el-table-column>
+      <el-table-column
+        prop="effective_rate_ld"
+        label="有效率"
+        align="center">
+      </el-table-column>
+      <el-table-column
+        prop="qualifiedRate_day"
+        label="达标率"
+        align="center">
+      </el-table-column>
+      <el-table-column
+        prop="overRate_day"
+        label="超标率"
+        align="center">
+      </el-table-column>
+    </el-table-column>
+    <el-table-column
+      label="Ln"
+      align="center">
+      <el-table-column
+        prop="n00009"
+        label="平均值"
+        align="center">
+      </el-table-column>
+      <el-table-column
+        prop="n00021"
+        label="最大值"
+        align="center">
+      </el-table-column>
+      <el-table-column
+        prop="effective_rate_ln"
+        label="有效率"
+        align="center">
+      </el-table-column>
+      <el-table-column
+        prop="qualifiedRate_night"
+        label="达标率"
+        align="center">
+      </el-table-column>
+      <el-table-column
+        prop="overRate_night"
+        label="超标率"
+        align="center">
+      </el-table-column>
+    </el-table-column>
+    <el-table-column
+      label="Ldn"
+      align="center">
+      <el-table-column
+        prop="n00007"
+        label="平均值"
+        align="center">
+      </el-table-column>
+      <el-table-column
+        prop="max_ldn"
+        label="最大值"
+        align="center">
+      </el-table-column>
+      <el-table-column
+        prop="effective_rate_ldn"
+        label="有效率"
+        align="center">
+      </el-table-column>
+      <el-table-column
+        prop="Ld_standard"
+        label="达标率"
+        align="center">
+      </el-table-column>
+      <el-table-column
+        prop="Ldn_over"
+        label="超标率"
+        align="center">
+      </el-table-column>
+    </el-table-column>
+  </el-table>
+</template>
+
+<script>
+export default {
+  name: "datatableday",
+  props: ["siteData", "loading"],
+  data(){
+    return{
+
+    }
+  }
+}
+</script>
+
+<style scoped>
+</style>
